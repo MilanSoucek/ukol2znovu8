@@ -1,17 +1,26 @@
 package cz.engeto.ja.room;
 
-public class Room {
-    private String roomNumber, capacity, balcony, prize, seaview;
+import com.sun.jdi.Value;
 
-    public Room(String roomNumber, String capacity, String balcony, String prize, String seaview) {
+public class Room {
+    private String roomNumber, capacity, balcony, prize, seaView;
+
+    public Room(String roomNumber, String capacity, String balcony, String prize, String seaView) {
         this.roomNumber = roomNumber;
         this.capacity = capacity;
         this.balcony = balcony;
         this.prize = prize;
-        this.seaview = seaview;
+        this.seaView =seaView;
     }
     public Room (String name) {
         this("", "", "", "", "");
+    }
+
+    public Room(String room1, String number, Boolean balcony, String prize, Boolean seaView) {
+    }
+
+    public Room() {
+
     }
 
     public String getRoomNumber() {
