@@ -18,9 +18,17 @@ public class Main {
             System.out.println(guest.getName()+ " " +guest.getSurname()+guest.getBirthdate());
         }
 
-        Room Room = new Room();
+//        Room Room = new Room();
         List<Room> rooms = new ArrayList<>();
         rooms.add(new Room("Room1", "1", "balcony", "1000"));
         rooms.add(new Room("Room2", "1", "balcony", "1000"));
+
+
+        for (int i = 0; i < 4; i++){
+            rooms.add(new Room("" + i));
+        }
+        for (Room room : rooms) {
+            System.out.println(room.getRoomNumber()+ " " +room.getCapacity()+room.getBalcony());
+        }
     }
 }

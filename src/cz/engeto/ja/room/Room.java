@@ -16,11 +16,7 @@ public class Room {
         this("", "", "", "", "");
     }
 
-    public Room(String room1, String number, Boolean balcony, String prize, Boolean seaView) {
-    }
-
-    public Room() {
-
+    public Room(String room1, String number, String balcony, String number1) {
     }
 
     public String getRoomNumber() {
@@ -56,10 +52,10 @@ public class Room {
     }
 
     public String getSeaview() {
-        return seaview;
+        return seaView;
     }
 
-    public void setSeaview(String seaview) {
-        this.seaview = seaview;
+    public void setSeaview(String seaView) {
+        this.seaView = seaView;
     }
 }
