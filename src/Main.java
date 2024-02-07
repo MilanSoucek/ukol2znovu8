@@ -20,7 +20,9 @@ public class Main {
 
         Room Room = new Room();
         List<Room> rooms = new ArrayList<>();
-        rooms.add(new Room("Room1", "1", "balcony", "1000"));
+        rooms.add(new Room("Room1", "1", "balcony", "100000"));
         rooms.add(new Room("Room2", "1", "balcony", "1000"));
     }
+
+
 }
