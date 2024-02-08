@@ -12,12 +12,15 @@ public class Room {
         this.prize = prize;
         this.seaView =seaView;
     }
-    public Room (String name) {
-        this("", "", "", "", "");
-    }
 
-    public Room(String room1, String number, String balcony, String number1) {
+    public Room(String roomNumber) {
     }
+//    public Room (String name) {
+//        this("", "", "", "", "");
+//    }
+
+//    public Room(String roomNumber, String capacity, String balcony, String prize, String seaView) {
+//    }
 
     public String getRoomNumber() {
         return roomNumber;
