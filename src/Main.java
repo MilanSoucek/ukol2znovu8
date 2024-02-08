@@ -20,15 +20,15 @@ public class Main {
 
 //        Room Room = new Room();
         List<Room> rooms = new ArrayList<>();
-        rooms.add(new Room("Room1", "1", "balcony", "100000"));
-        rooms.add(new Room("Room2", "1", "balcony", "1000"));
+        rooms.add(new Room("Room1", " 3", " balcony", " 100000", " seaView"));
+        rooms.add(new Room("Room2", " 1", " balcony", " 1000", " seaView"));
 
 
         for (int i = 0; i < 4; i++){
             rooms.add(new Room("" + i));
         }
         for (Room room : rooms) {
-            System.out.println(room.getRoomNumber()+ " " +room.getCapacity()+room.getBalcony());
+            System.out.println(room.getRoomNumber() + " " + room.getCapacity( ) + room.getBalcony( ) + room.getPrize( ) + room.getSeaview());
         }
     }
 
