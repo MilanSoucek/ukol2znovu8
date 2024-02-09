@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f8faf95-2456-483f-875b-60f7c6371a70" name="Changes" comment="znovu 5 room geust">
+    <list default="true" id="4f8faf95-2456-483f-875b-60f7c6371a70" name="Changes" comment="znovu 8 room geust tiskne room + guests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/engeto/ja/guests/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/engeto/ja/guests/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/engeto/ja/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/engeto/ja/room/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +49,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,7 +80,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707413218453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="znovu 7 room geust tiskne room i guests">
+      <option name="closed" value="true" />
+      <created>1707419498939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707419498939</updated>
+    </task>
+    <task id="LOCAL-00004" summary="znovu 8 room geust tiskne room + guests">
+      <option name="closed" value="true" />
+      <created>1707483092496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707483092496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -81,17 +105,10 @@
     <MESSAGE value="znovu 4 guest a room" />
     <MESSAGE value="znovu 5" />
     <MESSAGE value="znovu 5 room geust" />
-    <option name="LAST_COMMIT_MESSAGE" value="znovu 5 room geust" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cz/engeto/ja/booking/Booking.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="znovu 6 room geust tisk room" />
+    <MESSAGE value="znovu 7 room geust tiskne room + guests" />
+    <MESSAGE value="znovu 7 room geust tiskne room i guests" />
+    <MESSAGE value="znovu 8 room geust tiskne room + guests" />
+    <option name="LAST_COMMIT_MESSAGE" value="znovu 8 room geust tiskne room + guests" />
   </component>
 </project>

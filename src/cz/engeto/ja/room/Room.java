@@ -1,11 +1,11 @@
 package cz.engeto.ja.room;
 
-import com.sun.jdi.Value;
+import java.math.BigDecimal;
 
 public class Room {
-    private String roomNumber, capacity, balcony, prize, seaView;
+    private int roomNumber; int capacity; boolean balcony; BigDecimal prize; boolean seaView;
 
-    public Room(String roomNumber, String capacity, String balcony, String prize, String seaView) {
+    public Room(int roomNumber, int capacity, boolean balcony, BigDecimal prize, boolean seaView) {
         this.roomNumber = roomNumber;
         this.capacity = capacity;
         this.balcony = balcony;
@@ -22,43 +22,43 @@ public class Room {
 //    public Room(String roomNumber, String capacity, String balcony, String prize, String seaView) {
 //    }
 
-    public String getRoomNumber() {
+    public int getRoomNumber() {
         return roomNumber;
     }
 
-    public void setRoomNumber(String roomNumber) {
+    public void setRoomNumber(int roomNumber) {
         this.roomNumber = roomNumber;
     }
 
-    public String getCapacity() {
+    public int getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(String capacity) {
+    public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
 
-    public String getBalcony() {
+    public boolean getBalcony() {
         return balcony;
     }
 
-    public void setBalcony(String balcony) {
+    public void setBalcony(boolean balcony) {
         this.balcony = balcony;
     }
 
-    public String getPrize() {
+    public BigDecimal getPrize() {
         return prize;
     }
 
-    public void setPrize(String prize) {
+    public void setPrize(BigDecimal prize) {
         this.prize = prize;
     }
 
-    public String getSeaview() {
+    public boolean getSeaView() {
         return seaView;
     }
 
-    public void setSeaview(String seaView) {
+    public void setSeaView(boolean seaView) {
         this.seaView = seaView;
     }
 }

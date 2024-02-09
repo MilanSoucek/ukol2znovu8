@@ -1,17 +1,22 @@
 package cz.engeto.ja.guests;
 
+import java.time.LocalDate;
+
 public class Guest {
-    private String name, surname, birthdate;
+    private String name;
+    private LocalDate birthDate;
 
-    public Guest(String name, String surname, String birthdate) {
+    public Guest(String name, LocalDate birthDate) {
         this.name = name;
-        this.surname = surname;
-        this.birthdate = birthdate;
-    }
-    public Guest(String name) {
-        this("", "", "");
+        this.birthDate = birthDate;
     }
 
+    //    public Guest (String name, LocalDate birthDate) {
+//        }
+//    }
+//    public Guest(String name){
+//        this(name, surname, LocalDate());
+//    }
     public String getName() {
         return name;
     }
@@ -20,19 +25,11 @@ public class Guest {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public String getBirthdate() {
-        return birthdate;
-    }
-
-    public void setBirthdate(String birthdate) {
-        this.birthdate = birthdate;
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
     }
 }
