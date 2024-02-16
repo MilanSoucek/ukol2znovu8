@@ -1,15 +1,20 @@
 package cz.engeto.ja.bookingmanager;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BookingManager {
-//    Jejím atributem bude seznam rezervací (List<Booking>).
-//
-//    Přidej metody pro:
-//
-//    Vložení rezervace do seznamu: addBooking(Booking newBooking).
-//
-//    Získání rezervace se zadaným indexem ze seznamu: getBooking(index).
-//
-//    Získání seznamu rezervací: getBookings().
-//
-//    Vymazání seznamu rezervací: clearBookings().
+    private List<cz.engeto.ja.booking.Booking> bookingList = new ArrayList<>();
+
+    public void addBooking(cz.engeto.ja.booking.Booking booking) {
+        bookingList.add(booking);
+    }
+
+    public void removeBooking(cz.engeto.ja.booking.Booking booking) {
+        bookingList.remove(booking);
+    }
+
+    public List<cz.engeto.ja.booking.Booking> getBookings() {
+        return new ArrayList<>(bookingList);
+    }
 }

@@ -1,3 +1,5 @@
+import cz.engeto.ja.booking.Booking;
+import cz.engeto.ja.bookingmanager.BookingManager;
 import cz.engeto.ja.guests.Guest;
 import cz.engeto.ja.room.Room;
 
@@ -12,7 +14,20 @@ public class Main {
         Guest guest1 = new Guest("Jana Malikova",LocalDate.of(1993, 3, 13));
         Guest guest2 = new Guest("Jan Dvoracek", LocalDate.of(1995, 5, 5));
         Guest guest3 = new Guest("Karel Dvorak", LocalDate.of(1990, 5, 15));
-        Room room1 = new Room(1,2,true, BigDecimal.valueOf(1000), true );
+        Room room1 = new Room(1 ,1 ,true , BigDecimal.valueOf(1000), true );
+        Room room2 = new Room(2,1,true, BigDecimal.valueOf(1000), true );
+        Room room3 = new Room(3,3,false, BigDecimal.valueOf(2400), true );
+        BookingManager bookingManager = new BookingManager();
+        bookingManager.addBooking(new Booking(room3,guest3,LocalDate.of(2023,6,1),LocalDate.of(2023,6,7),true));
+        bookingManager.addBooking(new Booking(room2,guest2,LocalDate.of(2023,7,18),LocalDate.of(2023,7,21),false));
+
+        for (int i = 1; i <= 20; i = i+2) {
+            bookingManager.addBooking(new Booking(room2,guest2,LocalDate.of(2023,8,i),LocalDate.of(2023,8,i+1),false));
+
+            bookingManager.addBooking(new Booking(room3,guest3,LocalDate.of(2023,8,1),LocalDate.of(2023,8,31),false));
+
+
+        }
 
 //        for (int i = 0; i < 8; i++){
 //            Guest.add(new Guest(" ", LocalDate.of()));
@@ -33,7 +48,11 @@ public class Main {
 //            Room.add(new Room("" + i));
 //        }
 //        for (Room room : Room) {
-            System.out.println(room1.getRoomNumber() + " " + room1.getCapacity ( ) + room1.getBalcony ( ) + room1.getPrize ( ) + room1.getSeaView ());
+            System.out.println(room1.getRoomNumber ( ) + " " + room1.getCapacity ( ) + room1.getBalcony ( ) + room1.getPrize ( ) + room1.getSeaView ( ));
+            System.out.println("Rooms available:");
+            System.out.println(room1+"Kč");
+            System.out.println(room2+"Kč");
+            System.out.println(room3+"Kč");
 //        }
     }
 }

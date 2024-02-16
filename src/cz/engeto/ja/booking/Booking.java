@@ -1,5 +1,8 @@
 package cz.engeto.ja.booking;
 
+import cz.engeto.ja.guests.Guest;
+import cz.engeto.ja.room.Room;
+
 import java.time.LocalDate;
 
 
@@ -39,6 +42,9 @@ public class Booking {
 
     public Booking() {
 
+    }
+
+    public Booking(Room room3, Guest guest3, LocalDate of, LocalDate of1, boolean b) {
     }
 
 
