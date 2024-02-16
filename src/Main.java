@@ -12,7 +12,10 @@ public class Main {
         Guest guest1 = new Guest("Jana Malikova",LocalDate.of(1993, 3, 13));
         Guest guest2 = new Guest("Jan Dvoracek", LocalDate.of(1995, 5, 5));
         Guest guest3 = new Guest("Karel Dvorak", LocalDate.of(1990, 5, 15));
-        Room room1 = new Room(1,2,true, BigDecimal.valueOf(1000), true );
+        Room room1 = new Room(1 ,1 ,true , BigDecimal.valueOf(1000), true );
+        Room room2 = new Room(2,1,true, BigDecimal.valueOf(1000), true );
+        Room room3 = new Room(3,3,false, BigDecimal.valueOf(2400), true );
+
 
 //        for (int i = 0; i < 8; i++){
 //            Guest.add(new Guest(" ", LocalDate.of()));
@@ -33,7 +36,11 @@ public class Main {
 //            Room.add(new Room("" + i));
 //        }
 //        for (Room room : Room) {
-            System.out.println(room1.getRoomNumber() + " " + room1.getCapacity ( ) + room1.getBalcony ( ) + room1.getPrize ( ) + room1.getSeaView ());
+            System.out.println(room1.getRoomNumber ( ) + " " + room1.getCapacity ( ) + room1.getBalcony ( ) + room1.getPrize ( ) + room1.getSeaView ( ));
+            System.out.println("Rooms available:");
+            System.out.println(room1+"Kč");
+            System.out.println(room2+"Kč");
+            System.out.println(room3+"Kč");
 //        }
     }
 }
