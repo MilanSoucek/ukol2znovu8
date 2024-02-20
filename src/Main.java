@@ -54,5 +54,12 @@ public class Main {
             System.out.println(room2+"Kč");
             System.out.println(room3+"Kč");
 //        }
+//        System.out.println("List of booking:");
+//        bookingList.add(booking1);
+//        bookingList.add(booking2);
+//        bookingList.add(booking3);
+//
+//        bookingList.forEach(System.out::println);
+//
     }
 }
